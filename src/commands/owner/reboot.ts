@@ -16,7 +16,11 @@ export default class RebootCommand extends Command {
   constructor() {
     super(new CommandOptions("reboot").setType({ prefix: true }));
 
-    this.ownerIds = ["536257878429007873", "429307451825717250"];
+    this.ownerIds = [];
+  }
+
+  async onInit(client: CustomClient): Promise<void> {
+    this.ownerIds = client.config.bot.ownerId;
   }
 
   async run(

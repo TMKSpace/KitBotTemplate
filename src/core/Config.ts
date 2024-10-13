@@ -3,6 +3,7 @@ export default class Config {
     token: "PlaceYourTokenHere",
     prefix: "'",
     devGuildId: "",
+    ownerId: ["YouUserId"],
     intents: [3276799]
   };
   settings = {

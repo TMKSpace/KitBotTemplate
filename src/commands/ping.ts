@@ -16,6 +16,6 @@ export default class PingCommand extends Command {
     client: CustomClient
   ): Promise<any> {
     const ping = Math.round(client.ws.ping);
-    message.reply(`Понг сука! Задержка API: ${ping}мс`);
+    message.reply(`Понг! Задержка API: ${ping}мс`);
   }
 }

@@ -1,4 +1,4 @@
-# YourBotName - Bot for Discord made on TypeScript
+# YourBotName - Bot for Discord written on TypeScript
 
 ## Usage
 
